@@ -1,0 +1,5 @@
+link: th-wedding-master.great-site.net
+label: Website for th-wedding-master.great-site.net
+host: ftpupload.net
+username: if0_35067169!
+password: gmail148404

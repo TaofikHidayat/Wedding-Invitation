@@ -1,5 +1,5 @@
 :root {
-    --pink: #f14e95;
+    --primary: #FFA500;
     --bg: #0a0a0a;
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
     --sacramento: 'Sacramento', cursive;
@@ -38,6 +38,7 @@ body {
 .hero h1 {
     font-family: var(--sacramento);
     font-size: 6rem;
+    color: var(--primary);
 }
 
 .hero h4 {
@@ -49,14 +50,14 @@ body {
 }
 
 .hero a {
-    color: var(--pink);
+    color: var(--primary);
     background-color: white;
     box-shadow: var(--shadow);
 }
 
 .hero a:hover {
     color: white;
-    background-color: var(--pink);
+    background-color: var(--primary);
 }
 
 .mynavbar {
@@ -87,13 +88,13 @@ body {
     background-size: cover;
     min-height: 100vh;
     /* opacity: 0.5; */
-    margin-top: -6.5rem;
+    margin-top: -6rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
 }
 
 .home h2, .info h2, .story h2, .gallery h2, .rsvp h2, .gifts h2 {
-    color: var(--pink);
+    color: var(--primary);
     font-family: var(--sacramento);
     font-size: 5rem;
     font-weight: bold;
@@ -117,7 +118,7 @@ body {
 .home .couple h3 {
     font-family: var(--sacramento);
     font-size: 2.4rem;
-    color: var(--pink);
+    color: var(--primary);
 }
 
 .home .couple img {
@@ -138,7 +139,7 @@ body {
 
 .home .heart i {
     margin: auto;
-    color: var(--pink);
+    color: var(--primary);
 }
 
 .info {
@@ -311,18 +312,19 @@ body {
 }
 
 .rsvp button {
-    background-color: var(--pink);
+    background-color: var(--primary);
     color: white;
-    border: 1px solid var(--pink);
+    border: 1px solid var(--primary);
 }
 .rsvp button:hover {
     background-color: white;
-    color: var(--pink);
+    color: var(--primary);
     border: 1px solid white;
 }
 
 footer {
-    background-color: var(--pink);
+    padding: 3rem;
+    background-color: var(--primary);
     color: white;
 }
 
